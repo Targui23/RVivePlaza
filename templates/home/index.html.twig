@@ -1,9 +1,42 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Home Page{% endblock %}
+
 
 {% block body %}
 
-<h1>ciao</h1>
+    <section class="popular-categories">
+        <button>
+            <div>
+                <i class="fa-solid fa-car-side" ></i>
+            </div>
+            <div class="title-car">
+                <p>Vehicles</p>
+            </div>
+        </button>
+        <button>
+            <div></div>
+                <i class="fa-solid fa-kitchen-set"></i>
+            </div>
+            <div class="title-market">
+                <p>Market</p>
+            </div>
+        </button>
+        <button>
+            <div>
+                <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <div class="title-house">
+                <p>Buildings</p>
+            </div>
+        </button>
+        <button>
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="title-job">
+                <p>Job</p>
+            </div>
+        </button>
+    </section>
 
 {% endblock body %}
